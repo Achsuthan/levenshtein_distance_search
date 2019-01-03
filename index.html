@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>levenstin Distance</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="levenstin" class="container dropdown">
+        
+        <form>
+            <div class="form-group">
+                    <h2>Levenshtein Distance Algorithm based Search</h2>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Show data wich will filter
+                    </button>
+                    <div class="collapse" id="collapseExample">
+                        <template v-for="item in data">
+                            <span>{{item}}, </span>
+                        </template>
+                    </div>
+            </div>
+            <div class="form-group">
+                <input class="form-control" v-model="search" @keyup="valueChangedFn" v-on:click="showDivFn" type="text" placeholder="Search....">
+                <div class="dropdown">
+
+                    <div v-bind:class="activeClass">
+                        <template v-for="val in result">
+                            <a href="#" class="dropdown-content-a" v-on:click="locationClickedFn(val)">{{val}}</a>
+                        </template>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="src/js/index.js"></script>
+
+</body>
+
+</html>
