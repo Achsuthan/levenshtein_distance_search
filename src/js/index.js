@@ -28,7 +28,7 @@ var leven = new Vue({
                 for (var i = 0; i < this.data.length; i++) {
                     var diff = this.levenstinAlgorith(this.data[i].toUpperCase(), this.search.toUpperCase())
                     var persentage = 100 - (diff * 100 / this.data[i].length)
-                    if (persentage >= 30) {
+                    if (persentage >= 40) {
                         this.result.push(this.data[i])
                     }
                 }
