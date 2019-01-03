@@ -1,4 +1,4 @@
-# levenshtein distance algorithm based search for web
+# levenshtein distance algorithm based dropdown search for web
 <h3>This project build in using</h3>
 <ul>
     <li>1. HTML</li>
