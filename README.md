@@ -2,7 +2,7 @@
 <h3>This project build in using</h3>
 <ul>
     <li>HTML</li>
-    <li>CSS</li>
+    <li>Bootstrap</li>
     <li>Vue.js</li>
     <li>Levenshtein Distance Algorithm</li>
 </ul>
