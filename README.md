@@ -12,4 +12,4 @@
 <br/>
 <img src="./src/gif/demo.gif"/>
 
-<a href = "mailto: abc@example.com">Contact Me</a>
+<a href = "mailto: achsuthan@icloud.com">Contact Me</a>
