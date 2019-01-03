@@ -1,10 +1,10 @@
 # levenshtein distance algorithm based dropdown search for web
 <h3>This project build in using</h3>
 <ul>
-    <li>1. HTML</li>
-    <li>2. CSS</li>
-    <li>3. Vue.js</li>
-    <li>4. Levenshtein Distance Algorithm</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Vue.js</li>
+    <li>Levenshtein Distance Algorithm</li>
 </ul>
 <br/>
 <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">What is Levenshtein Distance Algorithm?</a>
