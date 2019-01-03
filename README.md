@@ -10,6 +10,8 @@
 <a href="https://en.wikipedia.org/wiki/Levenshtein_distance">What is Levenshtein Distance Algorithm?</a>
 <br/>
 <br/>
+<hr>
+<h3>Demo</h3>
 <img src="./src/gif/demo.gif"/>
-
+<hr>
 <a href = "mailto: achsuthan@icloud.com">Contact Me</a>
