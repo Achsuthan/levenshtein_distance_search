@@ -1,9 +1,11 @@
 # levenshtein_distance_search
 <p>This project build in using</p>
-1. HTML
-2. CSS
-3. Vue.js
-4. Levenshtein Distance Algorithm
+<ul>
+    <li>1. HTML</li>
+    <li>2. CSS</li>
+    <li>3. Vue.js</li>
+    <li>4. Levenshtein Distance Algorithm</li>
+</ul>
 
 
 
